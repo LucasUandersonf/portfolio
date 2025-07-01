@@ -7,6 +7,9 @@ const Hero = () => {
         min-h-screen overflow-hidden c-space ">
             <HeroText/>
             <ParallaxBackground />
+            <figure>
+                
+            </figure>
         </section>
     )
 }
