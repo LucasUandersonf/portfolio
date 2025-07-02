@@ -13,7 +13,7 @@ const Hero = () => {
             className="absolute inset-0"
             style = {{width: "100vw", height: "100vh"}}>
                 <Canvas>
-                    <Astronaut />
+                    {/*Astronaut */}
                 </Canvas>          
             </figure>
         </section>
