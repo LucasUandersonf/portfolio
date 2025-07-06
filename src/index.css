@@ -3,6 +3,7 @@
 @theme {
   --color-primary: #030412;
   --color-midnight: #06091f;
+  --colo-red: #D62828;
   --color-navy: #161a31;
   --color-indigo: #1f1e39;
   --color-storm: #282b4b;
@@ -72,11 +73,11 @@ body {
 }
 
 .headtext {
-  @apply mt-2 mb-2 text-xl;
+  @apply mt-2 mb-2 text-2xl;
 }
 
 .subtext {
-  @apply text-neutral-400 text-sm md:text-base text-pretty;
+  @apply text-white text-sm md:text-2xl text-pretty;
 }
 
 /* Navigation */
@@ -117,6 +118,18 @@ body {
   @apply p-6 bg-gradient-to-b from-storm to-indigo rounded-2xl;
 }
 
+.grid-red-color {
+  @apply p-6 rounded-2xl; background-color: #f3322c;
+}
+
+.grid-white-color {
+  @apply p-6 rounded-2xl; background-color: #fdfcdc;
+}
+
+.grid-green-color {
+  @apply p-6 rounded-2xl; background-color: #57cc99;
+}
+
 .grid-special-color {
   @apply p-6 bg-gradient-to-b from-royal to-lavender rounded-2xl;
 }
@@ -135,4 +148,33 @@ body {
 
 .field-input-focus {
   @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/20;
+}
+
+
+/* arquivo CSS customizado */
+.bg-custom-red {
+  background-color: #48cae4;
+}
+
+.bg-custom-orange {
+  background-color: #fb8b24;
+}
+
+
+
+.bg-custom-oxo{
+  background-color: #5f0f40;
+}
+.bg-custom-bluee {
+  background-color: #669bbc;
+}
+.bg-custom-blue {
+  background-color: #003049;
+}
+.bg-custom-red1 {
+  background-color: #c1121f;
+}
+
+.bg-custom-oange{
+  background-color: #ffb703;
 }
