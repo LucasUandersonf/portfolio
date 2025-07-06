@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import Card from "../components/Card";
+import { Globe } from "../components/globe";
 
 const About = () => {
     const grid2Container = useRef();
@@ -40,7 +41,7 @@ const About = () => {
               style={{ rotate: "-30deg", top: "60%", left: "45%" }}
               text="SOLID"
               containerRef={grid2Container} 
-              colorClass="bg-custom-red"
+              colorClass="bg-custom-red1"
             />
             <Card
               style={{ rotate: "90deg", bottom: "30%", left: "70%" }}
@@ -52,13 +53,13 @@ const About = () => {
               style={{ rotate: "-45deg", top: "55%", left: "0%" }}
               text="Design Principles"
               containerRef={grid2Container}
-              colorClass="bg-custom-green1"
+              colorClass="bg-custom-bluee"
             />
             <Card
               style={{ rotate: "20deg", top: "10%", left: "38%" }}
               text="SRP"
               containerRef={grid2Container}
-              colorClass="bg-custom-red1 "
+              colorClass="bg-custom-green1 "
             />
             <Card
               style={{ rotate: "30deg", top: "70%", left: "70%" }}
@@ -78,7 +79,17 @@ const About = () => {
           </div>
         </div>
             {/* Grid 3 */}
-            <div className="grid-white-color grid-3"></div>
+            <div className="grid-black-color1 grid-3">
+              <div className="z-10 w-[50%]">
+                <p className="headtext">Fuso Horário</p>
+            <p className="subtext">
+              Localizado no Brasil, disponível para trabalho remoto em qualquer lugar do mundo.
+            </p>
+            <figure className="absolute left-[30%] top-[10%]">
+            <Globe />
+          </figure>
+              </div>
+            </div>
             {/* Grid 4 */}
             <div className="grid-special-color grid-4"></div>
             {/* Grid 5 */}

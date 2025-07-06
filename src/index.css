@@ -152,29 +152,35 @@ body {
 
 
 /* arquivo CSS customizado */
-.bg-custom-red {
-  background-color: #48cae4;
-}
 
-.bg-custom-orange {
-  background-color: #fb8b24;
-}
 
 
 
 .bg-custom-oxo{
-  background-color: #5f0f40;
+  background-color: #003049;
 }
 .bg-custom-bluee {
-  background-color: #669bbc;
+  background-color: #003049;
 }
 .bg-custom-blue {
   background-color: #003049;
 }
 .bg-custom-red1 {
-  background-color: #c1121f;
+  background-color: #003049;
 }
 
 .bg-custom-oange{
-  background-color: #ffb703;
+  background-color: #003049;
+}
+
+.bg-custom-green1{
+  background-color: #003049;
+}
+
+.grid-black-color {
+  @apply p-6 bg-gradient-to-tl from-[#3A3A3A] via-[#242424] to-[#3A3A3A] rounded-2xl;
+}
+
+.grid-black-color1 {
+  @apply p-6 bg-gradient-to-tl from-[#00000] via-[#242424] to-[#00000] rounded-2xl;
 }
